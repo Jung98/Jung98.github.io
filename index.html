@@ -8,10 +8,14 @@
 </head>
 <body>
     <div class="header">
-        <h2>00:00:00</h2>
+        <h2 id="clock">--:--:--</h2>
+        <h3 id="weather">
+            <div>Seoul</div>
+            <div>--&#8451; / --</div>
+        </h3>
     </div>
     <div class="login">
-        <h1 class="hidden" id="greeting">Hello</h1>
+        <h1 id="greeting">Hello</h1>
         <form class="hidden" id="login-form">
             <input id="login-input" required maxlength="15" type="text" placeholder="Please, log in with your name." />
             <input type="submit" value="Log In">
@@ -21,18 +25,16 @@
         <form id="todo-form">
             <input id="todo-input" type="text" placeholder="Write a To Do and Press Enter">
         </form>
-        <ul id="todo-list">
-            <li>
-                <span>eat</span>
-            </li>
-            <li>
-                <span>sleep</span>
-            </li>
-        </ul>
+        <ul id="todo-list"></ul>
     </div>
     <div class="footer" id="quote">
-        <p>The way to get started is to quit talking and begin doing.</p>
-        <p>Walt Disney</p>
+        <p></p>
+        <p></p>
     </div>
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/weater.js"></script>
 </body>
 </html>

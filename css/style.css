@@ -7,6 +7,11 @@ h2 {
     text-align: right;
     margin: 0;
 }
+h3 {
+    font-size: 30px;
+    text-align: right;
+    margin: 0;
+}
 .login {
     display: block;
     padding: 20px;
@@ -30,7 +35,7 @@ h1 {
 }
 #todo-list {
     width: 350px;
-    height: 350px;
+    height: 300px;
 }
 .footer {
     display: block;
